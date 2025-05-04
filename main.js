@@ -1,5 +1,5 @@
 let menuIcon =  document.querySelector('#menu-icon');
-let navber =document.querySelector('navber');
+let navbar =document.querySelector('.navbar');
 let sections = document.querySelectorAll('section');
 let navLinks =document.querySelectorAll('header nav a');
 
@@ -28,6 +28,6 @@ window.onscroll= ( ) =>{
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
-    navber.classList.toggle('active');
+    navbar.classList.toggle('active');
 }
 
