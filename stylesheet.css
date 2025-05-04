@@ -57,7 +57,7 @@ color: var(--text-color);
 {
  text-shadow: 0 0 25px var(--main-color);
 }
-.navber a
+.navbar a
 {
    font-size: 1.8rem;
     color: var(--text-color);
